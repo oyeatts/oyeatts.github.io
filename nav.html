@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel = "stylesheet" href = "/static/style.css">
+</head>
+<body>
+<header>
+    <div aria-hidden="true">
+        <div>
+          <a>
+            <span>
+              <span>
+              </span>
+              <span>
+                Archaeological Project
+              </span>
+            </span>
+          </a>
+
+          <nav aria-label="Sections" class = "navbar">
+              <div class="logo"><a href="/">MyWebsite</a></div>
+              <ul class="nav-links">
+                  <li><a href="/About">About</a></li>
+                  <li><a href="/Contact">Contacts</a></li>
+                  <li><a href="/Fieldwork">Fieldwork</a></li>
+                  <li><a href="/Gallery">Gallery</a></li>
+                  <li><a href="/LaMilpa">La Milpa</a></li>
+                  <li><a href="/Media">Media</a></li>
+                  <li><a href="/News">News</a></li>
+                  <li><a href="/Participation">Participation</a></li>
+                  <li><a href="/People">People</a></li>
+                  <li><a href="/Publications">Publications</a></li>
+                  <li><a href="/Research">Research</a></li>
+              </ul>
+          </nav>
+        </div>
+    </div>
+</header>
+{% block content %}{% endblock %}
+</body>
+</html>
